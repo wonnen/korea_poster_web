@@ -45,10 +45,18 @@
 
 <script>
     function text_to_speech(text){
+        var text = text
+        speechSynthesis.speak(
+            new SpeechSynthesisUtterance(text)
+        );
+    }
+    /*
+    function text_to_speech(text){
         var msg = new SpeechSynthesisUtterance();
         msg.text = text;
         msg.rate = 0.7;
         msg.pitch = 0.9;
         window.speechSynthesis.speak(msg);
     }
+    */
 </script>
