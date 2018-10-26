@@ -1,51 +1,111 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/base.css">
 <style type="text/css">
     a:link {color:cornflowerblue; text-decoration: none;}
     a:visited {color:cornflowerblue; text-decoration: none;}
     a:hover {color:cornflowerblue; text-decoration: underline;}
 </style>
 
-<h1 style="color: #5e9ca0;">簡単な韓国語フレーズ</h1>
-<a href="./index.html">メインページへ</a>
+<div class="body">
+    <div class="header1"><h1>簡単な韓国語フレーズ</h1></div>
+    
+    <br/>
+    
+    <div class="filled">
+        <a href="./index.html">メインページへ</a>
 
-<br/>
-
-<p>안녕하세요.(アンニョンハセヨ) <button onclick="sound('./sounds/hi.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：おはようございます、こんにちは、こんばんは (普通の挨拶です)</p>
-<p>감사합니다.(カムサハムニダ) <button onclick="sound('./sounds/thx.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：ありがとうございます</p>
-<p>죄송합니다.(チェソンハムニダ) <button onclick="sound('./sounds/sorry.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：すみません</p>
-<p>저는 일본사람 입니다.(チョヌン イルボンサラム イムニダ) <button onclick="sound('./sounds/japanese.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：私は 日本人 です</p>
-<p>잘 먹겠습니다.(チャル モッケッスムニダ) <button onclick="sound('./sounds/itadaki.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：いただきます</p>
-<p>잘 먹었습니다.(チャル モゴッスムニダ) <button onclick="sound('./sounds/gochisou.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：ごちそうさまでした</p>
-<p>이거 주세요.(イゴ チュセヨ) <button onclick="sound('./sounds/this.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：これ ください</p>
-<p>얼마에요?(オルマエヨ) <button onclick="sound('./sounds/howmuch.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：いくらですか？</p>
-<p>어디에요?(オディエヨ) <button onclick="sound('./sounds/where.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>：どこですか？</p>
-
-<br/>
-
-<p>一、一つ - 일, 하나(イル、ハナ) <button onclick="sound('./sounds/1.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>二、二つ - 이, 둘(イ、ドゥル) <button onclick="sound('./sounds/2.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>三、三つ - 삼, 셋(サム、セッ) <button onclick="sound('./sounds/3.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>四、四つ - 사, 넷(サ、ネッ) <button onclick="sound('./sounds/4.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>五、五つ - 오, 다섯(オ、ダソッ) <button onclick="sound('./sounds/5.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>六、六つ - 육, 여섯(ユッ、ヨソッ) <button onclick="sound('./sounds/6.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>七、七つ - 칠, 일곱(チル、イルゴプ) <button onclick="sound('./sounds/7.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>八、八つ - 팔, 여덟(パル、ヨドル) <button onclick="sound('./sounds/8.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>九、九つ - 구, 아홉(グ、アホプ) <button onclick="sound('./sounds/9.mp3');"><img src="imgs/img13.png" width="15"></button></p>
-<p>十、十つ - 십, 열(シプ、ヨル) <button onclick="sound('./sounds/10.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+        <div class="header2"><h2>基本プレーズ</h2></div>
+        <ul>
+            <li>
+                <p>안녕하세요.(アンニョンハセヨ) <button onclick="sound('./sounds/hi.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：おはようございます、こんにちは、こんばんは (普通の挨拶です)</p>            
+            </li>
+            <li>
+                <p>감사합니다.(カムサハムニダ) <button onclick="sound('./sounds/thx.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：ありがとうございます</p>
+            </li>
+            <li>
+                <p>죄송합니다.(チェソンハムニダ) <button onclick="sound('./sounds/sorry.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：すみません</p>
+            </li>
+            <li>
+                <p>저는 일본사람 입니다.(チョヌン イルボンサラム イムニダ) <button onclick="sound('./sounds/japanese.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：私は 日本人 です</p>
+            </li>
+            <li>
+                <p>잘 먹겠습니다.(チャル モッケッスムニダ) <button onclick="sound('./sounds/itadaki.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：いただきます</p>
+            </li>
+            <li>
+                <p>잘 먹었습니다.(チャル モゴッスムニダ) <button onclick="sound('./sounds/gochisou.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：ごちそうさまでした</p>   
+            </li>
+            <li>
+                <p>이거 주세요.(イゴ チュセヨ) <button onclick="sound('./sounds/this.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：これ ください</p>
+            </li>
+            <li>
+                <p>얼마에요?(オルマエヨ) <button onclick="sound('./sounds/howmuch.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：いくらですか？</p>
+            </li>
+            <li>
+                <p>어디에요?(オディエヨ) <button onclick="sound('./sounds/where.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">：どこですか？</p>
+            </li>
+        </ul>
+        
+        <br/>
+        
+        <div class="header2"><h2>数字、数え方</h2></div>
+        <ul>
+            <li>
+                <p>일, 하나(イル、ハナ) <button onclick="sound('./sounds/1.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">一、一つ</p>
+            </li>
+            <li>
+                <p>이, 둘(イ、ドゥル) <button onclick="sound('./sounds/2.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">二、二つ</p>
+            </li>
+            <li>
+                <p>삼, 셋(サム、セッ) <button onclick="sound('./sounds/3.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">三、三つ</p>
+            </li>
+            <li>
+                <p>사, 넷(サ、ネッ) <button onclick="sound('./sounds/4.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">四、四つ</p>
+            </li>
+            <li>
+                <p>오, 다섯(オ、ダソッ) <button onclick="sound('./sounds/5.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">五、五つ</p>
+            </li>
+            <li>
+                <p>육, 여섯(ユッ、ヨソッ) <button onclick="sound('./sounds/6.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">六、六つ</p>
+            </li>
+            <li>
+                <p>칠, 일곱(チル、イルゴプ) <button onclick="sound('./sounds/7.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">七、七つ</p>
+            </li>
+            <li>
+                <p>팔, 여덟(パル、ヨドル) <button onclick="sound('./sounds/8.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">八、八つ</p>
+            </li>
+            <li>
+                <p>구, 아홉(グ、アホプ) <button onclick="sound('./sounds/9.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">九、九つ</p>
+            </li>
+            <li>
+                <p>십, 열(シプ、ヨル) <button onclick="sound('./sounds/10.mp3');"><img src="imgs/img13.png" width="15"></button></p>
+                <p class="yaku">十、十つ</p>
+            </li>
+        </ul>
+    </div>
+</div>
 
 <script>
-function sound(s){
-    var audio = new Audio(s);
-    audio.play();
-}
+    function sound(s){
+        var audio = new Audio(s);
+        audio.play();
+    }
 </script>
