@@ -1,3 +1,11 @@
+.body{
+    margin: 3 5 3 5;
+    border: 1px solid #2e6c80;
+    background-image: url("../main_imgs/back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 .header1{
     color: #5e9ca0;
     margin: 0 auto;
@@ -20,11 +28,6 @@
     display: block;
 }
 
-.body{
-    margin: 3 5 3 5;
-    border: 1px solid #2e6c80;
-    background-color: rgba(255, 236, 185, 0.05);
-}
 .filled{
     margin: 5 10 5 10;
 }
@@ -36,6 +39,7 @@
     display: block;
 
 }
+
 @media (min-width: 768px){
     #images{
         width: 40%;
